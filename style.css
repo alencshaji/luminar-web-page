@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar-brand img{
     height:5rem;
     width:100%;
@@ -25,6 +26,14 @@
 .submit-btn{
 width: fit-content !important;
 }
+.carousel-inner{
+    display: flex;
+}
+.carousel-caption {
+    max-width: 100%;
+    width:70%;
+    align-items: center;
+   }
 .content-sec .row{
     display: flex;
     align-items: center;
@@ -38,4 +47,27 @@ width: fit-content !important;
 }
 .course-left img{
     width: 100%;
+}
+.course-sec-heading{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.course-title span{
+    color: blueviolet;
+}
+.course-title h1{
+   text-align: center;
+}
+.card-title{
+    margin-top: 2rem;
+}
+.card-main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-card{
+    padding: .5rem;
+    color: #fff;
+    background-color: rgb(105, 9, 196);
 }
